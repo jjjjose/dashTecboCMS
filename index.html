@@ -3,8 +3,167 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="assets/css2/app.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Dashboard | TecboCMS</title>
   </head>
-  <body></body>
+
+  <body class="bg-shark-500">
+    <div>
+      <div
+        class="bg-shark-700 h-12 sm:h-24 fixed w-full border-b border-cele-900"
+      >
+        <div class="h-12 flex justify-between items-center px-4 xl:px-48">
+          <div class="text-2xl text-blanco-500 font-bold">Logo</div>
+          <div class="w-10 h-10 border border-cele-800 p-1 rounded-full">
+            <div
+              class="w-full h-full bg-auto bg-center rounded-full"
+              style="
+                background-image: url(https://mdbootstrap.com/img/Photos/Avatars/avatar-1.jpg);
+              "
+            ></div>
+          </div>
+        </div>
+        <!-- items para el escritorio -->
+        <div class="h-12 w-full hidden sm:block px-4 lg:px-48">
+          <div class="h-12 text-blanco-500 flex items-center justify-center">
+            <a
+              href=""
+              class="w-32 h-8 border border-cele-800 m-2 uppercase text-xs flex justify-center items-center text-cele-700 boton activado"
+            >
+              <i class="fas fa-home"></i>
+              <span class="ml-2">Inicio</span>
+            </a>
+            <a
+              href=""
+              class="w-32 h-8 border border-cele-800 m-2 uppercase text-xs flex justify-center items-center text-cele-700 boton"
+              >hola</a
+            >
+            <a
+              href=""
+              class="w-32 h-8 border border-cele-800 m-2 uppercase text-xs flex justify-center items-center text-cele-700 boton"
+            >
+              <i class="fas fa-cogs"></i>
+              <span class="ml-2">Config</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="h-12 sm:h-24"></div>
+
+      <div class="px-4 xl:px-48 min-h-screen">
+        <!-- nombre y breacumbs -->
+        <div class="h-16 flex justify-between items-center">
+          <div class="border-l-4 border-cele-500 text-lg">
+            <span class="ml-2 text-blanco-500 font-bold uppercase">Home</span>
+          </div>
+          <div class="text-shark-300 text-xs sm:text-base">
+            <a href="" class="text-cele-500">Tecbo</a> / Home
+          </div>
+        </div>
+        <!-- contenido total -->
+        <div
+          class="w-full text-shark-300 grid sm:grid-cols-3 lg:grid-cols-4 lg:grid-rows-6 gap-4"
+        >
+          <div
+            class="lg:col-span-1 lg:row-span-1 border border-cele-900 bg-shark-700 p-4"
+          >
+            <div class="uppercase text-sm font-bold text-blanco-500">
+              Total de visitas
+            </div>
+            <div class="font-medium text-verde-500 text-4xl">354689</div>
+            <div class="text-sm">Desde 2 de julio de 2020</div>
+          </div>
+
+          <div
+            class="sm:col-span-2 lg:row-span-2 border border-cele-900 bg-shark-700 p-4"
+          >
+            <div class="uppercase text-sm font-bold text-blanco-500">
+              Visitas esta semana
+            </div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              fugit consectetur sapiente mollitia aperiam, ullam perferendis
+              accusantium explicabo quae placeat temporibus eligendi deleniti
+              corrupti error iusto unde repellat eius facere.
+            </div>
+          </div>
+
+          <div
+            class="sm:col-span-1 sm:row-span-2 border border-cele-900 bg-shark-700 p-4"
+          >
+            tres
+          </div>
+          <div
+            class="sm:col-span-1 sm:row-span-2 border border-cele-900 bg-shark-700 p-4"
+          >
+            tres
+          </div>
+          <div
+            class="sm:col-span-2 sm:row-span-2 border border-cele-900 bg-shark-700 p-4"
+          >
+            tres
+          </div>
+          <div
+            class="sm:col-span-1 sm:row-span-1 border border-cele-900 bg-shark-700 p-4"
+          >
+            tres
+          </div>
+        </div>
+      </div>
+      <div class="h-12 sm:h-6"></div>
+      <div class="hidden sm:block bottom-0 fixed w-full">
+        <div
+          class="bg-shark-700 text-blanco-500 h-6 flex items-center justify-center border-t border-cele-900 text-xs"
+        >
+          © 2020 Copyright: Tecbo.org
+        </div>
+      </div>
+
+      <!-- items para mobil -->
+      <div class="sm:hidden bg-shark-700 fixed bottom-0 w-full h-12">
+        <div class="h-12 text-blanco-500 flex items-center justify-evenly">
+          <a
+            href=""
+            class="h-10 rounded-md capitalize text-xs flex flex-col justify-center items-center px-3 text-cele-700 activado"
+          >
+            <i class="fas fa-home text-lg"></i>
+            <span class="text-xs">Inicio</span></a
+          >
+          <a
+            href=""
+            class="h-10 rounded-md capitalize text-xs flex flex-col justify-center items-center px-3 text-cele-700"
+          >
+            <i class="fas fa-home text-lg"></i>
+            <span class="text-xs">Home</span></a
+          >
+          <a
+            href=""
+            class="h-10 rounded-md capitalize text-xs flex flex-col justify-center items-center px-3 text-cele-700"
+          >
+            <i class="fas fa-home text-lg"></i>
+            <span class="text-xs">Home</span></a
+          >
+          <a
+            href=""
+            class="h-10 rounded-md capitalize text-xs flex flex-col justify-center items-center px-3 text-cele-700"
+          >
+            <i class="fas fa-home text-lg"></i>
+            <span class="text-xs">Home</span></a
+          >
+          <a
+            href=""
+            class="h-10 rounded-md capitalize text-xs flex flex-col justify-center items-center px-3 text-cele-700 activado"
+          >
+            <i class="fas fa-cogs text-lg"></i>
+            <span class="text-xs">Config</span></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

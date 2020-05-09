@@ -1,0 +1,15 @@
+.activado {
+  background-color: #244246ab;
+  color: white;
+}
+.boton {
+  transition: all 0.5s ease-in;
+}
+.boton:hover {
+  color: white;
+  background-color: #24424633;
+}
+.hexact {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
